@@ -13,7 +13,6 @@
 
 .vantagens ul {
   display: grid;
-  /* faz gerar as colunas de forma responsiva*/
   grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
   gap: 40px 80px;
 }

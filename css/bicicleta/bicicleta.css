@@ -54,7 +54,7 @@
 
 .bicicleta-conteudo h2 {
   text-transform: uppercase;
-  letter-spacing: 0.015rem;
+  letter-spacing: 0.015em;
   margin-bottom: 12px;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .bicicleta-ficha li {
-  padding: 4px 0px;
+  padding: 4px 0;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid var(--cor-11);
@@ -100,8 +100,8 @@
   .bicicleta {
     grid-template-columns: 1fr;
     padding-top: 40px;
+    padding-bottom: 40px;
   }
-
   .bicicleta-imagens {
     grid-row: 2;
   }
@@ -111,7 +111,6 @@
   .bicicleta-informacoes {
     grid-template-columns: 1fr;
   }
-
   .bicicleta-comprar {
     grid-template-columns: 1fr;
   }

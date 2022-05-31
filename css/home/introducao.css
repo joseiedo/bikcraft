@@ -24,6 +24,7 @@
 .introducao h1 {
   margin-bottom: 32px;
 }
+
 .introducao p {
   margin-bottom: 20px;
 }
@@ -39,12 +40,11 @@
     gap: 32px;
   }
   .introducao-conteudo {
-    padding: 0px;
+    padding-bottom: 0px;
   }
   .introducao h1 {
     margin-bottom: 16px;
   }
-
   .introducao img {
     height: 300px;
     width: 100%;

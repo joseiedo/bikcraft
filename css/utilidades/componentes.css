@@ -49,7 +49,7 @@
   transition: transform 0.2s;
 }
 
-.botao.seta:hover:after {
+.botao.seta:hover::after {
   transform: translateX(4px);
 }
 
@@ -79,8 +79,7 @@
   color: var(--cor-0);
 }
 
-/* titulos internos */
-
+/* titulo internas */
 .titulo-bg {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -92,11 +91,10 @@
 }
 
 @media (max-width: 800px) {
-  .titulo {
+  .titulo-bg {
     padding-top: 40px;
     padding-bottom: 40px;
   }
-
   .titulo p {
     font-size: 1rem;
     text-transform: lowercase;

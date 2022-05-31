@@ -1,6 +1,6 @@
 .perguntas {
-  padding-bottom: 120px;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .perguntas h2 {
@@ -41,7 +41,7 @@
   transition: 0.3s;
 }
 
-.perguntas dt:hover:after {
+.perguntas dt:hover::after {
   transform: rotate(180deg);
 }
 
@@ -56,7 +56,6 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
-
   .perguntas h2 {
     margin-bottom: 40px;
   }
