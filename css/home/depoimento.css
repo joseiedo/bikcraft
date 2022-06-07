@@ -44,6 +44,7 @@
 .depoimento p::after {
   content: "”";
 }
+
 @media (min-width: 1200px) {
   .depoimento img {
     max-height: 520px;
